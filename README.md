@@ -39,7 +39,7 @@ On first run, the system prompts you to register at least one face. Each registe
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/tvoj-username/isac-passenger-id
+git clone https://github.com/praksasreda/isac-passenger-id
 cd isac-passenger-id
 ```
 
@@ -60,7 +60,7 @@ To get your Voice ID: ElevenLabs dashboard → Voices → select voice → copy 
 
 **4. Run**
 ```bash
-python main.py
+python RecognitionMultipleCamsv2.py
 ```
 
 On first run, the system will guide you through face registration before starting detection.
