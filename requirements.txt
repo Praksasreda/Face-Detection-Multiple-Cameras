@@ -1,0 +1,6 @@
+opencv-python
+insightface
+onnxruntime
+numpy
+elevenlabs
+python-dotenv
