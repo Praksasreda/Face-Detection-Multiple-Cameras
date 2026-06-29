@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 faces/
 *.pkl
+registerFace.py
+FaceDetection.py

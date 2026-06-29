@@ -39,8 +39,8 @@ On first run, the system prompts you to register at least one face. Each registe
 
 **1. Clone the repository**
 ```bash
-git clone https://github.com/praksasreda/isac-passenger-id
-cd isac-passenger-id
+git clone https://github.com/praksasreda/Face-Detection-Multiple-Cameras
+cd Face-Detection-Multiple-Cameras
 ```
 
 **2. Install dependencies**
@@ -79,7 +79,7 @@ On first run, the system will guide you through face registration before startin
 
 ## Configuration
 
-At the top of `main.py`:
+At the top of `RecognitionMultipleCamsv2.py`:
 
 ```python
 CAMERA_INDEXES = [0, 1]       # 0 = built-in webcam, 1 = USB camera
