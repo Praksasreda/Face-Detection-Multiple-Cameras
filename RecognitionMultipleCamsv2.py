@@ -211,10 +211,10 @@ def run():
                 else:
                     label = "UNKNOWN"
                     color = (0, 0, 255)
-                    #key = f"{name}"
+                    key = f"unknown_{cam.index}"
                     now = time.time()
                     if key not in last_spoken or now - last_spoken[key] > COOLDOWN_SECOND:
-                        #last_spoken[key] = now
+                        last_spoken[key] = now
                         speak(isac_phrase(None, None, known=False))
                         log_detection("unknown", cam.index)
 
